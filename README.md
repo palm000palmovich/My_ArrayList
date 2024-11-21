@@ -15,3 +15,9 @@ For any mistake you make in the syntax, the program will throw the following exc
 TiSovsemEbanutiyTakieDannieVvoditException("Ты совсем ишак? Давай нормальные данные введи!")
 
 So if you don’t want to face bullying from your computer, then do everything carefully :0
+
+
+
+P.S. Love you Java ♡
+
+public class ReplyFromJava { public static void main(String[] args) { System.out.println("Love you too bro)"; } }
