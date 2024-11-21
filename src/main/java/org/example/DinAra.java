@@ -1,13 +1,21 @@
 package org.example;
 
-public class DinAra<E>{
-    private Object[] elements;
-    private int size;
-    private final int DEFAULT_Capacity = 10;
+public interface DinAra<Type> {
+    //Добавление элемента
+    void dobavitMana(Type element);
 
-    public DinAra(){
-        elements = new Object[DEFAULT_Capacity];
-        size = 0;
-    }
+    //Вывод элемента по индексу
+    Type poluchitElementamana(int index);
 
+    //Удаление элемента по индексу
+    void udalitElementamana(int index);
+
+    //Размер листа
+    int rasmera();
+
+    //Проверка на пустоту
+    boolean pustaIliNet();
+
+    //Динамическое расширение массива
+    void ensureCapacity();
 }
