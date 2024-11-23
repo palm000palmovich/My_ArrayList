@@ -10,11 +10,16 @@ So, let's go :)
                  P.S. Yea, I'm so strange :)
 4)rasmera() - size of list
 5)pustaIliNet() - empty or not
+6)plovEstTam(Type element) - checking if an element is in a list
 
 For any mistake you make in the syntax, the program will throw the following exception: 
 TiSovsemEbanutiyTakieDannieVvoditException("Ты совсем ишак? Давай нормальные данные введи!")
 
 So if you don’t want to face bullying from your computer, then do everything carefully :0
+
+
+And in the Tests folder there are tests for each method. Even though the developer is Uzbek, 
+he is still prudent and loves BDSM :)
 
 
 
